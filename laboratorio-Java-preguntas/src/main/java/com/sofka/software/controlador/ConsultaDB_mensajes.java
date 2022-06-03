@@ -23,5 +23,23 @@ public class ConsultaDB_mensajes {
         logger.info("Error en Modificar: " + e);
     }
 
+    public void DatosGuardados(String e) {
+        logger.info("Sus datos fueron guardados satisfactoriamente");
+    }
+
+    public void DatosNoGuardados(String e) {
+        logger.info("Error sus datos NO fueron guardados");
+    }
+
+    public void Acumulado(String e) {
+        logger.info("Sus acumulado se almaceno en su usuario");
+    }
+
+    public void NoActualizados(String e) {
+        logger.info("Error sus datos NO fueron actualizados");
+    }
+
+
+
 
 }
