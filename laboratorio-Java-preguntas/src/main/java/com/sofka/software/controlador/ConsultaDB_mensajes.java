@@ -1,6 +1,6 @@
 package com.sofka.software.controlador;
 
-import com.sofka.software.conexion.conexion_mensajes;
+
 import org.jboss.logging.Logger;
 
 public class ConsultaDB_mensajes {
@@ -14,4 +14,14 @@ public class ConsultaDB_mensajes {
     public void consultaError(String e) {
         logger.info("Error en la consulta : " + e);
     }
+
+    public void ErrorGuardar(String e) {
+        logger.info("Error en Guardar: " + e);
+    }
+
+    public void ErrorModificar(String e) {
+        logger.info("Error en Modificar: " + e);
+    }
+
+
 }
