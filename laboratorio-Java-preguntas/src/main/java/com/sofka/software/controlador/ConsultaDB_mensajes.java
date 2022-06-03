@@ -23,11 +23,11 @@ public class ConsultaDB_mensajes {
         logger.info("Error en Modificar: " + e);
     }
 
-    public void DatosGuardados(String e) {
+    public void DatosGuardados() {
         logger.info("Sus datos fueron guardados satisfactoriamente");
     }
 
-    public void DatosNoGuardados(String e) {
+    public void DatosNoGuardados() {
         logger.info("Error sus datos NO fueron guardados");
     }
 
