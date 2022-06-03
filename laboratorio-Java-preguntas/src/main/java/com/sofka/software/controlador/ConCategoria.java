@@ -9,7 +9,7 @@ import java.util.ArrayList;
 
 public class ConCategoria {
 
-    static ConCategoria_mensajes message = ConCategoria_mensajes.getInstance();
+    static ConsultaDB_mensajes message = ConsultaDB_mensajes.getInstance();
 
     public ArrayList<ModCategoria> consultaCategoria() {
         Conexion con = new Conexion();

@@ -30,5 +30,8 @@ public class Main {
             System.out.println(listaCategoriaId.get(i).getNombre());
             System.out.println(listaCategoriaId.get(i).getIdCategoria());
         }
+
+        lecturas scanner = new lecturas();
+        scanner.getChar();
     }
 }
