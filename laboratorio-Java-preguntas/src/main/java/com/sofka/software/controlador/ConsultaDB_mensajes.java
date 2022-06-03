@@ -39,7 +39,11 @@ public class ConsultaDB_mensajes {
         logger.info("Error sus datos NO fueron actualizados");
     }
 
+    public void NombreCategoria(String nombre) {
+        logger.info(" " + nombre);
+    }
 
-
-
+    public void MostrarPreguntas(String nombre) {
+        logger.info(" " + nombre);
+    }
 }

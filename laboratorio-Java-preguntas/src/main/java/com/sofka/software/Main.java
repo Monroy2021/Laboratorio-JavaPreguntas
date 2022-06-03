@@ -2,6 +2,7 @@ package com.sofka.software;
 
 import com.sofka.software.conexion.Conexion;
 import com.sofka.software.controlador.ConCategoria;
+import com.sofka.software.controlador.ConParticipante;
 import com.sofka.software.modelo.ModCategoria;
 
 import java.util.ArrayList;
@@ -31,7 +32,20 @@ public class Main {
             System.out.println(listaCategoriaId.get(i).getIdCategoria());
         }
 
-        lecturas scanner = new lecturas();
-        scanner.getChar();
+        //lecturas scanner = new lecturas();
+        //scanner.getChar();
+
+
+        ConParticipante persona = new ConParticipante();
+        int id = persona.elegirCategoria();
+        persona.mostrarCategoria(id);
+
+        //llamando los geter para tener el valor del nivel
+
+        Integer nivel = persona.getNivel();
+        persona.MostrarPreguntas(id,nivel);
+
+
+
     }
 }

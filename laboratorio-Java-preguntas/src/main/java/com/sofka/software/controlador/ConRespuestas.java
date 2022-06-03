@@ -7,7 +7,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-public class ConRepuestas {
+public class ConRespuestas {
 
     static ConsultaDB_mensajes message = ConsultaDB_mensajes.getInstance();
 

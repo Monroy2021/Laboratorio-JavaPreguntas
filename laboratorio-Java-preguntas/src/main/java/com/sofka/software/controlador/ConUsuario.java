@@ -20,11 +20,11 @@ public class ConUsuario {
         Conexion con = new Conexion();
         try {
             if (con.ejecutar(sql)) {
-                message.DatosGuardados("Sus datos fueron guardados satisfactoriamente");
+                message.DatosGuardados("");
 
             } else {
 
-                message.DatosNoGuardados("Error sus datos NO fueron guardados");
+                message.DatosNoGuardados("");
 
             }
 
