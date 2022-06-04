@@ -50,32 +50,36 @@ public class ConsultaDB_mensajes {
     public void opcionIncorrecta() {
         logger.info("La opcioón seleccionada es incorrecta ");
     }
-    public void elegirOpcion(){
+
+    public void elegirOpcion() {
         logger.info("Seleccione la respuesta [1] [2] [3] [4]");
     }
-    public void ganaste(){
+
+    public void ganaste() {
         logger.info("Felicidades ganaste");
     }
 
-    public void seguir(){
+    public void seguir() {
         logger.info("Deseas seguir digita [1] si, [2} No");
     }
 
-    public void digitarNombre(){
+    public void digitarNombre() {
         logger.info("Digite tu nombre");
     }
 
-    public void digitarApellido(){
+    public void digitarApellido() {
         logger.info("Digite tu apellido");
     }
-    public void digitarCorreo(){
+
+    public void digitarCorreo() {
         logger.info("Digite tu correo");
     }
 
-    public void verHistorico(){
+    public void verHistorico() {
         logger.info("Deseas ver el historico: [1] si, [2] no");
     }
-    public void mostrarHistorico(String nombre, String acumulado){
+
+    public void mostrarHistorico(String nombre, String acumulado) {
         logger.info(nombre + " Acumulado " + acumulado);
     }
 
