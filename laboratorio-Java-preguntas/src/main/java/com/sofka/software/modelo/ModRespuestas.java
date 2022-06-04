@@ -1,28 +1,28 @@
 package com.sofka.software.modelo;
 
-public class ModRepuestas {
-    private int idRepuestas;
+public class ModRespuestas {
+    private int idRespuestas;
     public String opcion;
-    public boolean valorBooleano;
+    public int valorBooleano;
     private int idPreguntas;
 
-    public ModRepuestas() {
+    public ModRespuestas() {
 
     }
 
-    public ModRepuestas(int idRepuestas, String opcion, boolean valorBooleano, int idPreguntas) {
+    public ModRespuestas(int idRespuestas, String opcion, int valorBooleano, int idPreguntas) {
         this.idPreguntas = idPreguntas;
         this.opcion = opcion;
         this.valorBooleano = valorBooleano;
-        this.idRepuestas = idRepuestas;
+        this.idRespuestas = idRespuestas;
     }
 
-    public int getIdRepuestas() {
-        return idRepuestas;
+    public int getIdRespuestas() {
+        return idRespuestas;
     }
 
-    public void setIdRepuestas(int idRepuestas) {
-        this.idRepuestas = idRepuestas;
+    public void setIdRespuestas(int idRepuestas) {
+        this.idRespuestas = idRepuestas;
     }
 
     public String getOpcion() {
@@ -33,11 +33,11 @@ public class ModRepuestas {
         this.opcion = opcion;
     }
 
-    public boolean isValorBooleano() {
+    public int getValorBooleano() {
         return valorBooleano;
     }
 
-    public void setValorBooleano(boolean valorBooleano) {
+    public void setValorBooleano(int valorBooleano) {
         this.valorBooleano = valorBooleano;
     }
 

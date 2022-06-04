@@ -21,11 +21,8 @@ public class ConUsuario {
         try {
             if (con.ejecutar(sql)) {
                 message.DatosGuardados();
-
             } else {
-
                 message.DatosNoGuardados();
-
             }
 
         } catch (Exception e) {
